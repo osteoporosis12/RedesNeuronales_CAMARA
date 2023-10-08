@@ -18,8 +18,6 @@ else:
         cont_cap+=1
         print(cont_cap)
 
-
-
 X = numpy.empty((0, 4096), dtype=numpy.uint8)
 Y = numpy.empty((0, 1))
 
