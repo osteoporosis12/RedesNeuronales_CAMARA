@@ -42,7 +42,6 @@ while True:
 
         cara = cv2.resize(recorte_cara, (64, 64), interpolation=cv2.INTER_AREA)  # redimencion y relleno de espacios
 
-
         # CONVERTIMOS A GRISES
         cara = cv2.cvtColor(cara, cv2.COLOR_BGR2GRAY)
         if(intervalo+0.25<=time()):
