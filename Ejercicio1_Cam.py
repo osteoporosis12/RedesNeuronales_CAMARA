@@ -42,7 +42,7 @@ while True:
 
         # CONVERTIMOS A GRISES
         cara = cv2.cvtColor(cara, cv2.COLOR_BGR2GRAY)
-        if(intervalo+0.25<=time()):
+        if(intervalo+0.20<=time()):
             #print(cara.reshape(1,400).shape)
             xdd=cara.reshape(1, -1)
             X = numpy.concatenate((X, xdd), axis=0)
